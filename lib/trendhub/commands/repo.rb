@@ -13,7 +13,7 @@ module Trendhub
       end
 
       def execute
-        repositories = Trendhub::Repositories.new.fetch(options[:since], options[:language])
+        repositories = Trendhub::Repositories.new.fetch(options[:for], options[:language])
         repositories.each do |repo|
           $stdout.puts "-" * 100
           $stdout.puts "#{colorizer.decorate(repo.name, :bold)} has #{colorizer.decorate(repo.added_stars, :bold, :red)} stars added #{repo.time_period}"
