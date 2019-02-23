@@ -1,4 +1,9 @@
 # Trendhub
+
+[![Build Status](https://travis-ci.org/sondnm/trendhub.svg?branch=master)](https://travis-ci.org/sondnm/trendhub)
+[![Maintainability](https://api.codeclimate.com/v1/badges/961c76d5f9d2014eedc5/maintainability)](https://codeclimate.com/github/sondnm/trendhub/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/961c76d5f9d2014eedc5/test_coverage)](https://codeclimate.com/github/sondnm/trendhub/test_coverage)
+
 `trendhub` is a CLI gem to fetch github trending repositories.
 
 ## Installation
@@ -10,6 +15,7 @@ $ gem install trendhub
 ```
 
 ## Usage
+
 ### `trendhub repo`
 List trending repositories from Github
 Supported options:
