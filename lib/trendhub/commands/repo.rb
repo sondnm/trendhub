@@ -1,7 +1,5 @@
 # frozen_string_literal: true
 
-require "http"
-require "oga"
 require 'trendhub/repositories'
 require 'trendhub/utils/color'
 

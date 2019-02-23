@@ -1,8 +1,5 @@
 # frozen_string_literal: true
 
-require 'http'
-require 'yaml'
-
 module Trendhub
   class Language
     attr_reader :language_path
